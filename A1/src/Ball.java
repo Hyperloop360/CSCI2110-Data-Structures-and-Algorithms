@@ -1,4 +1,4 @@
-public class Ball {
+ public class Ball {
     private double bx, by;
 
     //Constructor
