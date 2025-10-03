@@ -1,5 +1,6 @@
 public class Circle {
     private double xpos, ypos, radius;
+    private static final double EPSILON = 1e-8;
 
     public Circle(double xpos, double ypos, double radius) {
         this.xpos = xpos;
@@ -17,8 +18,8 @@ public class Circle {
     public boolean contains(Point p) {
         double dx = p.getX() - xpos;
         double dy = p.getY() - ypos;
-        double distanceSquared = dx * dx + dy * dy;
-        return distanceSquared <= radius * radius;
+        double distanceSquared = Math.sqrt(dx * dx + dy * dy);
+        return distanceSquared <= radius * EPSILON;
     }
 
     public boolean contains(Rectangle r) {
