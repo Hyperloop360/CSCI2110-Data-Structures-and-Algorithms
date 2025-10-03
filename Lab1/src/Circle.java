@@ -21,4 +21,19 @@ public class Circle {
         return distanceSquared <= radius * radius;
     }
 
+    public boolean contains(Rectangle r) {
+        Point topLeft = new Point (r.getXpos (), r.getYpos ());
+        Point topRight = new Point (r.getXpos () + r.getWidth (), r.getYpos ());
+        Point bottomLeft = new Point (r.getXpos (), r.getYpos () + r.getHeight ());
+        Point bottomRight = new Point (r.getXpos () + r.getWidth(), r.getYpos () + r.getHeight ());
+
+        return contains(topLeft) && contains(topRight) && contains(bottomLeft) && contains(bottomRight);
+
+    }
+
+    // to string method
+    public String toString() {
+        return "Circle at (" + xpos + ", " + ypos + ") with radius " + radius;
+    }
+
 }

@@ -1,0 +1,45 @@
+Part 1:
+
+Sample 1:
+
+Enter circle center (x,y) and radius:
+5.0
+5.0
+10.0
+Enter a Point (x y)
+2.0
+3.0
+Enter rectangle (xpos ypos width height)
+10.0
+10.0
+50.0
+40.0
+
+Circle[center=(5.0, 5.0), radius=10.0]
+Point (2.0, 3.0) contained in circle? true
+Rectangle[xpos=10.0, ypos=10.0, width=50.0, height=40.0]
+Rectangle contained in circle? false
+
+
+Sample 2:
+Enter circle center (x,y) and radius:
+5.0
+10.0
+20.0
+Enter a Point (x y)
+5.0
+6.0
+Enter rectangle (xpos ypos width height)
+20.0
+16.0
+14.0
+13.0
+
+Circle[center=(5.0, 10.0), radius=20.0]
+Point (5.0, 6.0) contained in circle? true
+Rectangle[xpos=20.0, ypos=16.0, width=14.0, height=13.0]
+Rectangle contained in circle? false
+
+
+Sample 3:
+
