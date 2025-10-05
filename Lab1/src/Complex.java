@@ -1,3 +1,7 @@
+/**
+ * Antony Punnassery
+ * B01012905
+ */
 public class Complex {
     private double real;
     private double imag;
