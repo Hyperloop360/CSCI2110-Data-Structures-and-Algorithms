@@ -1,3 +1,7 @@
+/**
+ * Antony Punnassery
+ * B01012905
+ */
 public class Rectangle {
     private double xpos,ypos, width, height;
 
