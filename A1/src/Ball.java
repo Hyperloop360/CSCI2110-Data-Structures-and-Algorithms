@@ -2,7 +2,10 @@
     private double bx, by;
 
     //Constructor
-    public Ball() {}
+    public Ball(double bx, double by) {
+        this.bx = bx;
+        this.by = by;
+    }
 
     //Set Methods
     public void setBx(double bx) { this.bx = bx; }
