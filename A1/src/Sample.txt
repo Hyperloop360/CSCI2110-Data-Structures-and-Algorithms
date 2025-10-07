@@ -1,0 +1,22 @@
+Sample Run:
+SOCCER GAME SETUP!
+Player Srini
+[0.0, 0.0, 500.0, 400.0]
+[100.000, 200.0]
+
+
+Player Srini kicks the ball for a distance of 300.0 pixels at 45.0 degrees
+[312.132, 200.0]
+true
+
+
+Player Srini kicks the ball for a distance of 500.0 pixels at 0.0 degrees
+[312.132, 200.0]
+true
+
+
+Player Srini kicks the ball for a distance of 100.0 pixels at 270.0 degrees
+[312.132, 100.0]
+false
+
+Process finished with exit code 0

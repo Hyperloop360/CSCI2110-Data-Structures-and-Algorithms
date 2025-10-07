@@ -2,7 +2,7 @@
  * Antony Punnassery
  * B01012905
  */
-public class Main {
+public class Demo {
     public static void main(String[] args){
 
         Ball soccerBall;
@@ -13,20 +13,24 @@ public class Main {
         srini = new Player("Srini");
         dalField = new Field(0.0, 0.0, 500.0, 400.0);
         soccerBall = new Ball(100.0, 200.0);
+        boolean kickBoo = false;
 
         System.out.println(srini + "\n" + dalField + "\n" + soccerBall);
         System.out.println("\n");
-        srini.kick(dalField, soccerBall, 300.0, 45.0);
+        kickBoo = srini.kick(dalField, soccerBall, 300.0, 45.0);
         System.out.println(srini + " kicks the ball for a distance of 300.0 pixels at 45.0 degrees");
         System.out.println(soccerBall);
+        System.out.println(kickBoo);
         System.out.println("\n");
-        srini.kick(dalField, soccerBall, 500.0, 0.0);
+        kickBoo = srini.kick(dalField, soccerBall, 500.0, 0.0);
         System.out.println(srini + " kicks the ball for a distance of 500.0 pixels at 0.0 degrees");
         System.out.println(soccerBall);
+        System.out.println(kickBoo);
         System.out.println("\n");
-        srini.kick(dalField, soccerBall, 100.0, 270.0);
+        kickBoo = srini.kick(dalField, soccerBall, 100.0, 270.0);
         System.out.println(srini + " kicks the ball for a distance of 100.0 pixels at 270.0 degrees");
         System.out.println(soccerBall);
+        System.out.println(kickBoo);
 
         //Expected Result:
         /*

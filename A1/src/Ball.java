@@ -17,7 +17,7 @@
 
     @Override
     public String toString(){
-        return "[" + getBx() + ", " + getBy() + "]";
+        return "[" + (String.format("%.3f", getBx())) + ", " + String.format("%.1f", getBy()) + "]";
     }
 
 }
