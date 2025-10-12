@@ -1,0 +1,48 @@
+Prime:
+11
+11 31 0
+101
+101 547 0
+1001
+1001 7927 6
+10001
+10001 104743 670
+100001
+100001 1299721 79745
+
+Matrix Mult:
+Enter the matrix size and the matrix element: 500 10
+Size:500 Time:147 ms
+Enter the matrix size and the matrix element: 1000 10
+Size:1000 Time:1252 ms
+Enter the matrix size and the matrix element: 1500 10
+Size:1500 Time:4443 ms
+Enter the matrix size and the matrix element: 2000 10
+Size:2000 Time:14214 ms
+Enter the matrix size and the matrix element: 2500 10
+Size:2500 Time:46604 ms
+Enter the matrix size and the matrix element: 3000 10
+Size:3000 Time:90141 ms
+Enter the matrix size and the matrix element: 3500 10
+Size:3500 Time:160134 ms
+
+Binary:
+Enter a positive integer: 10
+The execution time to generate binary numbers from 0 to 1023 is 0 ms
+Enter a positive integer: 12
+The execution time to generate binary numbers from 0 to 4095 is 1 ms
+Enter a positive integer: 14
+The execution time to generate binary numbers from 0 to 16383 is 2 ms
+Enter a positive integer: 16
+The execution time to generate binary numbers from 0 to 65535 is 4 ms
+Enter a positive integer: 18
+The execution time to generate binary numbers from 0 to 262143 is 8 ms
+
+Enter a positive integer: 26
+The execution time to generate binary numbers from 0 to 67108863 is 663 ms
+
+Enter a positive integer: 30
+The execution time to generate binary numbers from 0 to 1073741823 is 11882 ms
+
+
+
