@@ -1,0 +1,29 @@
+Bubble Sort:
+
+Enter value of n: 100
+Execution Time for Bubble Sort: 0 milliseconds
+
+Enter value of n: 1000
+Execution Time for Bubble Sort: 4 milliseconds
+
+Enter value of n: 5000
+Execution Time for Bubble Sort: 27 milliseconds
+
+Enter value of n: 10000
+Execution Time for Bubble Sort: 68 milliseconds
+
+
+Selection Sort:
+
+Enter the array size (n): 100
+Execution Time for Selection Sort: 0 milliseconds.
+
+Enter the array size (n): 1000
+Execution Time for Selection Sort: 4 milliseconds.
+
+
+Enter the array size (n): 5000
+Execution Time for Selection Sort: 20 milliseconds.
+
+Enter the array size (n): 10000
+Execution Time for Selection Sort: 50 milliseconds.
