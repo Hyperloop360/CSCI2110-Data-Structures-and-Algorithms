@@ -50,6 +50,7 @@ Stack<Integer> empty? true
 
 
 GenericQueue Test:
+TEST 1:
 Enter strings to ENQUEUE (one per line). Blank line to finish:
 alpha
 beta
@@ -92,3 +93,85 @@ Dequeuing twice
 Queue: 400 300
 Queue<Integer> empty? false
 
+TEST 2:
+Enter strings to ENQUEUE (one per line). Blank line to finish:
+lets
+try
+this
+test
+
+Queue<String> size: 4
+Queue: lets try this test
+Peek<String>: lets
+Enter a String to search with positionOf:
+this
+String this found in position 2
+Enter String to remove (first occurrence):
+this
+Queue: lets try test
+Dequeuing twice
+lets
+try
+Queue: test
+Queue<String> empty? false
+
+Enter integers to ENQUEUE (one per line). Blank line to finish:
+100
+200
+400
+500
+600
+
+Queue<Integer> size: 5
+Queue: 100 200 400 500 600
+Peek<Integer>: 100
+Enter an int to search with positionOf:
+50
+Integer 50 not found
+Enter an int to remove (first occurrence):
+200
+Queue: 100 400 500 600
+Dequeuing twice
+100
+400
+Queue: 500 600
+Queue<Integer> empty? false
+
+
+PrintQueueTest
+TEST 1:
+Print Queue Demo (type HELP for commands)
+Commands:
+   ADD owner jobId
+   LIST
+   RM jobId
+   RMALL owner
+   HELP
+   QUIT
+> LIST
+Queue:
+> ADD Alice 101
+Added job 101 by Alice
+> ADD Bob 202
+Added job 202 by Bob
+> LIST
+Queue: Alice: 101 Bob: 202
+> RM 999
+Active job id does not match 999; nothing removed
+> RM 101
+Removed active job 101
+> LIST
+Queue: Bob: 202
+> ADD Carol 404
+Added job 404 by Carol
+> LIST
+Queue: Bob: 202 Carol: 404
+> RMALL Bob
+Removed 1 job(s) owned by Bob
+> LIST
+Queue: Carol: 404
+> QUIT
+BYE
+
+
+TEST 2

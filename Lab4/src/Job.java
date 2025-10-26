@@ -9,7 +9,7 @@ public class Job {
     public String getOwner() {
         return owner;
     }
-    public int getJobID() {
+    public int getJobId() {
         return jobID;
     }
 
