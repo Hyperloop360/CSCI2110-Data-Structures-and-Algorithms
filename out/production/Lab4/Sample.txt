@@ -24,3 +24,71 @@ Popping all Integer items (LIFO):
 Stack<Integer> empty? true
 
 TEST 2:
+Enter strings to PUS (one per line). Press Enter on an empty line to finish:
+what
+about
+this
+test
+
+Stack<String> size: 4
+Stack<String> peek: test
+Popping all String items (LIFO):
+test this about what
+Stack<String> empty? true
+
+Enter Integers to PUSH (one per line). Press enter on an empty line to finish:
+200
+300
+100
+400
+
+Stack<Integer> size: 4
+Peek<Integer>: 400
+Popping all Integer items (LIFO):
+400 100 300 200
+Stack<Integer> empty? true
+
+
+GenericQueue Test:
+Enter strings to ENQUEUE (one per line). Blank line to finish:
+alpha
+beta
+gamma
+
+Queue<String> size: 3
+Queue: alpha beta gamma
+Peek<String>: alpha
+Enter a String to search with positionOf:
+beta
+String beta found in position 1
+Enter String to remove (first occurrence):
+beta
+Queue: alpha gamma
+Dequeuing twice
+alpha
+gamma
+Queue:
+Queue<String> empty? true
+
+Enter integers to ENQUEUE (one per line). Blank line to finish:
+100
+200
+300
+400
+300
+
+Queue<Integer> size: 5
+Queue: 100 200 300 400 300
+Peek<Integer>: 100
+Enter an int to search with positionOf:
+600
+Integer 600 not found
+Enter an int to remove (first occurrence):
+300
+Queue: 100 200 400 300
+Dequeuing twice
+100
+200
+Queue: 400 300
+Queue<Integer> empty? false
+

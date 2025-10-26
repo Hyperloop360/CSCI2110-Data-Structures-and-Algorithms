@@ -49,4 +49,90 @@ Popping all Integer items (LIFO):
 Stack<Integer> empty? true
 
 
+GenericQueue Test:
+TEST 1:
+Enter strings to ENQUEUE (one per line). Blank line to finish:
+alpha
+beta
+gamma
 
+Queue<String> size: 3
+Queue: alpha beta gamma
+Peek<String>: alpha
+Enter a String to search with positionOf:
+beta
+String beta found in position 1
+Enter String to remove (first occurrence):
+beta
+Queue: alpha gamma
+Dequeuing twice
+alpha
+gamma
+Queue:
+Queue<String> empty? true
+
+Enter integers to ENQUEUE (one per line). Blank line to finish:
+100
+200
+300
+400
+300
+
+Queue<Integer> size: 5
+Queue: 100 200 300 400 300
+Peek<Integer>: 100
+Enter an int to search with positionOf:
+600
+Integer 600 not found
+Enter an int to remove (first occurrence):
+300
+Queue: 100 200 400 300
+Dequeuing twice
+100
+200
+Queue: 400 300
+Queue<Integer> empty? false
+
+TEST 2:
+Enter strings to ENQUEUE (one per line). Blank line to finish:
+lets
+try
+this
+test
+
+Queue<String> size: 4
+Queue: lets try this test
+Peek<String>: lets
+Enter a String to search with positionOf:
+this
+String this found in position 2
+Enter String to remove (first occurrence):
+this
+Queue: lets try test
+Dequeuing twice
+lets
+try
+Queue: test
+Queue<String> empty? false
+
+Enter integers to ENQUEUE (one per line). Blank line to finish:
+100
+200
+400
+500
+600
+
+Queue<Integer> size: 5
+Queue: 100 200 400 500 600
+Peek<Integer>: 100
+Enter an int to search with positionOf:
+50
+Integer 50 not found
+Enter an int to remove (first occurrence):
+200
+Queue: 100 400 500 600
+Dequeuing twice
+100
+400
+Queue: 500 600
+Queue<Integer> empty? false
