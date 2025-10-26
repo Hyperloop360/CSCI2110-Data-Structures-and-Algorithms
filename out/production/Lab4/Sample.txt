@@ -1,0 +1,26 @@
+Generic Stack Test:
+TEST 1:
+Enter strings to PUS (one per line). Press Enter on an empty line to finish:
+alpha
+beta
+gamma
+
+Stack<String> size: 3
+Stack<String> peek: gamma
+Popping all String items (LIFO):
+gamma beta alpha
+Stack<String> empty? true
+
+Enter Integers to PUSH (one per line). Press enter on an empty line to finish:
+100
+200
+300
+400
+
+Stack<Integer> size: 4
+Peek<Integer>: 400
+Popping all Integer items (LIFO):
+400 300 200 100
+Stack<Integer> empty? true
+
+TEST 2:
