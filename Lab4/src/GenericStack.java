@@ -1,15 +1,36 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class GenericStack {
-    public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+import java.util.ArrayList;
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+public class GenericStack<T> {
+    private ArrayList<T> stack;
+
+    //Crate Empty GenericStack Object
+    public GenericStack(){
+        stack = new ArrayList<>();
     }
+
+    //Returns the number of elements in the GenericStack
+    public int size(){
+        return stack.size();
+    }
+
+    //Removes and returns the top element in the GenericStack
+    public T pop() {
+        return stack.remove(stack.size() - 1);
+    }
+
+    //Returns the top element in the GenericStack (doesn’t remove it)
+    public T peek() {
+        return stack.get(stack.size() - 1);
+    }
+
+    //Adds an element to the top of the GenericStack
+    public void push(T element){
+        stack.add(element);
+    }
+
+    //Returns true if the GenericStack is empty, false otherwise
+    public boolean isEmpty(){
+        return stack.isEmpty();
+    }
+
 }
