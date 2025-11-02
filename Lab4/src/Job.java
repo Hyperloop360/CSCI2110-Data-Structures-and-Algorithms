@@ -1,3 +1,7 @@
+/**
+ * Antony Punnassery
+ * B01012905
+ */
 public class Job {
     private String owner;
     private int jobID;
@@ -9,7 +13,7 @@ public class Job {
     public String getOwner() {
         return owner;
     }
-    public int getJobID() {
+    public int getJobId() {
         return jobID;
     }
 
