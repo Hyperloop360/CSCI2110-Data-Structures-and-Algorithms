@@ -260,6 +260,4 @@ public class MatchStats {
         }
         return wins;
     }
-
-
 }
