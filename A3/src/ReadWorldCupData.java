@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ReadWorldCupData {
     public static void main(String[] args) {
-        String filename = "A3/fifa-world-cup-2022-UTC.txt"; // make sure file is in same folder as program
+        String filename = "A3/src/fifa-world-cup-2022-UTC.txt"; // make sure file is in same folder as program
 
         try (Scanner sc = new Scanner(new File(filename))) {
             // Skip the header line
