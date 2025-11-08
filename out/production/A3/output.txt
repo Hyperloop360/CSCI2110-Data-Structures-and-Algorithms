@@ -1,1 +1,79 @@
 trial output for FifaStats
+"C:\Users\Antony Punnassery\.jdks\openjdk-22.0.2\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=51838:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath "C:\Github\Data Structures and Algorithms\out\production\A3" FifaStatsDemo
+
+============================
+ FIFA WORLD CUP 2022 STATS
+============================
+
+Belgium, Croatia, Morocco, Canada
+
+Number of matches played by Brazil: 5
+
+Team with highest total goals:
+Team with highest total goals: France (16)
+
+Team with lowest total goals:
+Team with lowest total goals: Qatar (1)
+
+Matches played at Lusail Stadium:
+Argentina 3-3 France (Finals, Lusail Stadium, 18/12/2022 15:00)
+Argentina 3-0 Croatia (Semi Finals, Lusail Stadium, 13/12/2022 19:00)
+Netherlands 2-2 Argentina (Quarter Finals, Lusail Stadium, 09/12/2022 19:00)
+Portugal 6-1 Switzerland (Round of 16, Lusail Stadium, 06/12/2022 19:00)
+Cameroon 1-0 Brazil (3, Lusail Stadium, 02/12/2022 19:00)
+Saudi Arabia 1-2 Mexico (3, Lusail Stadium, 30/11/2022 19:00)
+Portugal 2-0 Uruguay (2, Lusail Stadium, 28/11/2022 19:00)
+Argentina 2-0 Mexico (2, Lusail Stadium, 26/11/2022 19:00)
+Brazil 2-0 Serbia (1, Lusail Stadium, 24/11/2022 19:00)
+Argentina 1-2 Saudi Arabia (1, Lusail Stadium, 22/11/2022 10:00)
+
+Matches played on 18/12/2022:
+Argentina 3-3 France (Finals, Lusail Stadium, 18/12/2022 15:00)
+
+Matches played by Morocco:
+Croatia 2-1 Morocco (Finals, Khalifa International Stadium, 17/12/2022 15:00)
+France 2-0 Morocco (Semi Finals, Al Bayt Stadium, 14/12/2022 19:00)
+Morocco 1-0 Portugal (Quarter Finals, Al Thumama Stadium, 10/12/2022 15:00)
+Morocco 0-0 Spain (Round of 16, Education City Stadium, 06/12/2022 15:00)
+Canada 1-2 Morocco (3, Al Thumama Stadium, 01/12/2022 15:00)
+Belgium 0-2 Morocco (2, Al Thumama Stadium, 27/11/2022 13:00)
+Morocco 0-0 Croatia (1, Al Bayt Stadium, 23/11/2022 10:00)
+
+Teams ranked by performance (most wins to least wins):
+Teams ranked by performance (most wins to least wins):
+1. France (5 wins)
+2. Argentina (4 wins)
+3. Brazil (3 wins)
+4. Netherlands (3 wins)
+5. Portugal (3 wins)
+6. England (3 wins)
+7. Morocco (3 wins)
+8. Australia (2 wins)
+9. Senegal (2 wins)
+10. Japan (2 wins)
+11. Switzerland (2 wins)
+12. Croatia (2 wins)
+13. Ecuador (1 wins)
+14. Iran (1 wins)
+15. Tunisia (1 wins)
+16. Mexico (1 wins)
+17. Saudi Arabia (1 wins)
+18. Belgium (1 wins)
+19. Germany (1 wins)
+20. Costa Rica (1 wins)
+21. Uruguay (1 wins)
+22. Ghana (1 wins)
+23. Cameroon (1 wins)
+24. USA (1 wins)
+25. Poland (1 wins)
+26. Korea Republic (1 wins)
+27. Spain (1 wins)
+28. Qatar (0 wins)
+29. Wales (0 wins)
+30. Denmark (0 wins)
+31. Canada (0 wins)
+32. Serbia (0 wins)
+
+=== End of Report ===
+
+Process finished with exit code 0

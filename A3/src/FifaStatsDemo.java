@@ -12,6 +12,7 @@ public class FifaStatsDemo {
         System.out.println("============================\n");
 
         //List all teams in a given group
+        System.out.println("All teams in given Group: ");
         stats.displayTeams("Group F");
         System.out.println();
 
@@ -21,12 +22,10 @@ public class FifaStatsDemo {
         System.out.println();
 
         //Team with highest total goals
-        System.out.println("Team with highest total goals:");
         stats.highestTotalGoals();
         System.out.println();
 
         //Team with lowest total goals
-        System.out.println("Team with lowest total goals:");
         stats.lowestTotalGoals();
         System.out.println();
 
@@ -43,7 +42,6 @@ public class FifaStatsDemo {
         System.out.println();
 
         //Teams ranked by performance
-        System.out.println("Teams ranked by performance (most wins to least wins):");
         stats.displayTeamsTopDown();
 
         System.out.println("\n=== End of Report ===");

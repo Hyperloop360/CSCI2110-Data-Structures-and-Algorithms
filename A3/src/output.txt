@@ -1,18 +1,16 @@
-trial output for FifaStats
-"C:\Users\Antony Punnassery\.jdks\openjdk-22.0.2\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=51838:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath "C:\Github\Data Structures and Algorithms\out\production\A3" FifaStatsDemo
+trial output for FifaStats:
 
 ============================
  FIFA WORLD CUP 2022 STATS
 ============================
 
+All teams in given Group:
 Belgium, Croatia, Morocco, Canada
 
 Number of matches played by Brazil: 5
 
-Team with highest total goals:
 Team with highest total goals: France (16)
 
-Team with lowest total goals:
 Team with lowest total goals: Qatar (1)
 
 Matches played at Lusail Stadium:
@@ -39,7 +37,6 @@ Canada 1-2 Morocco (3, Al Thumama Stadium, 01/12/2022 15:00)
 Belgium 0-2 Morocco (2, Al Thumama Stadium, 27/11/2022 13:00)
 Morocco 0-0 Croatia (1, Al Bayt Stadium, 23/11/2022 10:00)
 
-Teams ranked by performance (most wins to least wins):
 Teams ranked by performance (most wins to least wins):
 1. France (5 wins)
 2. Argentina (4 wins)
