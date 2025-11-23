@@ -1,0 +1,78 @@
+Antony Punnassery
+B01012905
+
+Exercise 1:
+Factorial of a number
+Enter a positive integer:
+4
+Factorial of 4 is 24
+-------
+
+Fibonacci Numbers
+The first 20 numbers in the fibonacci sequence are:
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181
+--------
+
+Power of a number
+Enter a positive integer x: 2
+Enter another positive integer: 3
+2 to the power of 3 is 8
+--------
+
+Process finished with exit code 0
+
+Factorial of a number
+Enter a positive integer:
+6
+Factorial of 6 is 720
+-------
+
+Fibonacci Numbers
+The first 20 numbers in the fibonacci sequence are:
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181
+--------
+
+Power of a number
+Enter a positive integer x: 3
+Enter another positive integer: 4
+3 to the power of 4 is 81
+--------
+
+Process finished with exit code 0
+
+
+Exercise 2:
+Enter a positive integer n for the countdown: 10
+Starting countdown from 10:
+    10    9    8    7    6    5    4    3    2    1    BlastOff!
+Process finished with exit code 0
+
+Enter a positive integer n for the countdown: 12
+Starting countdown from 12:
+    12    11    10    9    8    7    6    5    4    3    2    1    BlastOff!
+Process finished with exit code 0
+
+
+Exercise 3:
+Starting countdown from 10:
+    10    8    6    4    2    BlastOff!
+Process finished with exit code 0
+
+Starting countdown from 9:
+    9    7    5    3    1    BlastOff!
+Process finished with exit code 0
+
+Exercise 4:
+Enter positive integer n: 2
+Enter positive integer m (number of multiples): 5
+The first 5 multiples of 2 are: 2, 4, 6, 8, 10
+
+Process finished with exit code 0
+
+Enter positive integer n: 3
+Enter positive integer m (number of multiples): 6
+The first 6 multiples of 3 are: 3, 6, 9, 12, 15, 18
+
+Process finished with exit code 0
+
+
