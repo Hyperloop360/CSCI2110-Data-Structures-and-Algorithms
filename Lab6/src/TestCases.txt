@@ -42,25 +42,42 @@ Process finished with exit code 0
 
 
 Exercise 2:
+Test 1:
 Enter a positive integer n for the countdown: 10
 Starting countdown from 10:
     10    9    8    7    6    5    4    3    2    1    BlastOff!
 Process finished with exit code 0
 
+Test 2:
 Enter a positive integer n for the countdown: 12
 Starting countdown from 12:
     12    11    10    9    8    7    6    5    4    3    2    1    BlastOff!
 Process finished with exit code 0
 
+Test 3:
+Enter a positive integer n for the countdown:  18
+Starting countdown from 18:
+    18    17    16    15    14    13    12    11    10    9    8    7    6    5    4    3    2    1    BlastOff!
+Process finished with exit code 0
+
 
 Exercise 3:
+Test 1:
 Starting countdown from 10:
     10    8    6    4    2    BlastOff!
 Process finished with exit code 0
 
+Test 2:
 Starting countdown from 9:
     9    7    5    3    1    BlastOff!
 Process finished with exit code 0
+
+Test 3:
+Enter a positive integer n for the countdown: 5
+Starting countdown from 5:
+    5    3    1    BlastOff!
+Process finished with exit code 0
+
 
 Exercise 4:
 Test 1:
@@ -86,3 +103,97 @@ Process finished with exit code 0
 
 
 Exercise 5:
+Test 1:
+Enter a positive integer n to display vertically: 1234
+Digits of 1234 printed vertically:
+1
+2
+3
+4
+
+Process finished with exit code 0
+
+Test 2:
+Enter a positive integer n to display vertically: 35321
+Digits of 35321 printed vertically:
+3
+5
+3
+2
+1
+
+Process finished with exit code 0
+
+Test 3:
+Enter a positive integer n to display vertically: 5
+Digits of 5 printed vertically:
+5
+
+Process finished with exit code 0
+
+Exercise 6:
+Test 1:
+Enter a positive integer n to calculate sum: 4
+The sum of squares from 1 to 4 is 30
+
+Process finished with exit code 0
+
+Test 2:
+Enter a positive integer n to calculate sum: 6
+The sum of squares from 1 to 6 is 91
+
+Process finished with exit code 0
+
+Test 3:
+Enter a positive integer n to calculate sum: 5
+The sum of squares from 1 to 5 is 55
+
+Process finished with exit code 0
+
+Exercise 7:
+Test 1:
+Enter a String to reverse: character
+The Reversed String is: retcarahc
+
+Process finished with exit code 0
+
+Test 2:
+Enter a String to reverse: hello
+The Reversed String is: olleh
+
+Process finished with exit code 0
+
+Test 3:
+Enter a String to reverse: recursion
+The Reversed String is: noisrucer
+
+Process finished with exit code 0
+
+
+Exercise 8:
+Test 1:
+Enter number of steps (below 30): 4
+Number of ways to climb 4 steps: 7
+
+Process finished with exit code 0
+
+Test 2:
+Enter number of steps (below 30): 9
+Number of ways to climb 9 steps: 149
+
+Process finished with exit code 0
+
+Test 3:
+Enter number of steps (below 30): 28
+Number of ways to climb 28 steps: 15902591
+
+Process finished with exit code 0
+
+
+
+
+
+
+
+
+
