@@ -1,0 +1,37 @@
+Sample 1:
+Enter name or done: emboar
+Enter name or done: unfezant
+Enter name or done: palkia
+Enter name or done: serperior
+Enter name or done: samurott
+Enter name or done: done
+
+Height of the tree is: 2
+Number of nodes in the tree is: 5
+
+Inorder:	serperior	unfezant	samurott	emboar	palkia
+Preorder:	emboar	unfezant	serperior	samurott	palkia
+Postorder:	serperior	samurott	unfezant	palkia	emboar
+Level order:	emboar	unfezant	palkia	serperior	samurott
+
+
+
+Sample 2:
+Enter name or done: pickachu
+Enter name or done: charizard
+Enter name or done: squirtle
+Enter name or done: baulbasaur
+Enter name or done: lugia
+Enter name or done: celebi
+Enter name or done: done
+
+Height of the tree is: 2
+Number of nodes in the tree is: 6
+
+Inorder:	baulbasaur	charizard	lugia	pickachu	celebi	squirtle
+Preorder:	pickachu	charizard	baulbasaur	lugia	squirtle	celebi
+Postorder:	baulbasaur	lugia	charizard	celebi	squirtle	pickachu
+Level order:	pickachu	charizard	squirtle	baulbasaur	lugia	celebi
+
+
+Sample 3:
