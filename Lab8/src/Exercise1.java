@@ -1,3 +1,7 @@
+/**
+ * Antony Punnasery
+ * B01012905
+ */
 import java.util.Scanner;
 
 public class Exercise1 {
